@@ -1,0 +1,1833 @@
+<--------------2021/11/30 17:34:54------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 1, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.00      0.00      0.00        22
+           african_hunting_dog       0.00      0.00      0.00        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.00      0.00      0.00        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.00      0.00      0.00        29
+          bernese_mountain_dog       0.00      0.00      0.00        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.00      0.00      0.00        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.00      0.00      0.00        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.00      0.00      0.00        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.00      0.00      0.00        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.00      0.00      0.00        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.00      0.00      0.00        14
+              english_foxhound       0.00      0.00      0.00        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.00      0.00      0.00        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.00      0.00      0.00        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.00      0.00      0.00        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.02      0.07      0.03        15
+               irish_wolfhound       0.01      0.24      0.02        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.00      0.00      0.00        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.25      0.07      0.11        14
+                      komondor       0.00      0.00      0.00        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.00      0.00      0.00        29
+                      leonberg       0.01      0.06      0.02        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.01      0.95      0.03        20
+              mexican_hairless       0.02      0.08      0.04        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.00      0.00      0.00        18
+            norwegian_elkhound       0.00      0.00      0.00        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.00      0.00      0.00        18
+                    otterhound       0.00      0.00      0.00        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.00      0.00      0.00        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.00      0.00      0.00        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.05      0.03      0.04        36
+              sealyham_terrier       0.00      0.00      0.00        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.00      0.00      0.00        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.00      0.00      0.00        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.00      0.00      0.00        14
+                       whippet       0.00      0.00      0.00        15
+       wire-haired_fox_terrier       0.00      0.00      0.00        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.01      2045
+                     macro avg       0.00      0.01      0.00      2045
+                  weighted avg       0.00      0.01      0.00      2045
+
+---runtime= 00:01:48 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:38:52------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 5, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.08      0.05      0.06        20
+                  afghan_hound       0.02      0.09      0.03        22
+           african_hunting_dog       0.14      0.04      0.06        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.10      0.05      0.07        19
+            australian_terrier       0.00      0.00      0.00        26
+                       basenji       0.04      0.05      0.05        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.15      0.14      0.15        29
+          bernese_mountain_dog       0.00      0.00      0.00        26
+       black-and-tan_coonhound       0.06      0.07      0.06        14
+              blenheim_spaniel       0.04      0.04      0.04        26
+                    bloodhound       0.14      0.05      0.07        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.05      0.08      0.06        12
+                border_terrier       0.00      0.00      0.00        25
+                        borzoi       0.07      0.09      0.08        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.05      0.05      0.05        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.33      0.08      0.12        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.09      0.04      0.06        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.12      0.05      0.07        21
+                       clumber       0.09      0.07      0.08        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.00      0.00      0.00        14
+              english_foxhound       0.12      0.31      0.18        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.33      0.17      0.23        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.10      0.09      0.10        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.14      0.08      0.10        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.27      0.20      0.23        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.03      0.07      0.04        15
+               irish_wolfhound       0.04      0.06      0.05        17
+             italian_greyhound       0.03      0.07      0.05        14
+              japanese_spaniel       0.24      0.29      0.26        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.05      0.07      0.06        14
+                      komondor       0.75      0.18      0.29        17
+                        kuvasz       0.07      0.17      0.10         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.08      0.03      0.05        29
+                      leonberg       0.11      0.11      0.11        18
+                         lhasa       0.04      0.07      0.05        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.17      0.05      0.08        20
+              mexican_hairless       0.15      0.15      0.15        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.03      0.07      0.04        14
+               norfolk_terrier       0.04      0.06      0.04        18
+            norwegian_elkhound       0.04      0.06      0.05        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.20      0.22      0.21        18
+                    otterhound       0.16      0.25      0.20        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.05      0.19      0.09        21
+                           pug       0.07      0.07      0.07        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.11      0.09      0.10        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.17      0.26      0.20        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.06      0.11      0.08        36
+              sealyham_terrier       0.08      0.20      0.11        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.07      0.09      0.08        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.04      0.06      0.05        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.14      0.14      0.14        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.07      0.11      0.08        19
+                    toy_poodle       0.10      0.06      0.08        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.04      0.07      0.05        14
+                       whippet       0.04      0.07      0.05        15
+       wire-haired_fox_terrier       0.11      0.07      0.09        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.05      2045
+                     macro avg       0.05      0.05      0.04      2045
+                  weighted avg       0.05      0.05      0.04      2045
+
+---runtime= 00:00:57 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:40:15------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 10, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.09      0.10      0.10        20
+                  afghan_hound       0.05      0.09      0.07        22
+           african_hunting_dog       0.20      0.04      0.06        26
+                      airedale       0.06      0.04      0.05        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.06      0.04      0.05        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.07      0.11      0.08        19
+            bedlington_terrier       0.00      0.00      0.00        29
+          bernese_mountain_dog       0.04      0.04      0.04        26
+       black-and-tan_coonhound       0.06      0.07      0.06        14
+              blenheim_spaniel       0.07      0.04      0.05        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.11      0.08      0.09        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.08      0.11      0.09        19
+                         boxer       0.17      0.06      0.09        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.18      0.15      0.17        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.05      0.07      0.06        15
+                cocker_spaniel       0.12      0.05      0.07        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.07      0.05      0.06        20
+                dandie_dinmont       0.06      0.05      0.05        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.05      0.07      0.06        14
+              english_foxhound       0.07      0.15      0.10        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.17      0.12      0.14        17
+                   entlebucher       0.21      0.14      0.17        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.06      0.09      0.07        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.04      0.06      0.05        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.04      0.04      0.04        25
+    greater_swiss_mountain_dog       0.02      0.08      0.03        13
+                   groenendael       0.20      0.10      0.13        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.07      0.06      0.06        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.17      0.13      0.15        15
+               irish_wolfhound       0.02      0.06      0.03        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.14      0.17      0.15        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.08      0.07      0.08        14
+            kerry_blue_terrier       0.06      0.14      0.09        14
+                      komondor       0.38      0.18      0.24        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.03      0.06      0.04        18
+              lakeland_terrier       0.07      0.03      0.05        29
+                      leonberg       0.04      0.11      0.06        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.00      0.00      0.00        20
+              mexican_hairless       0.17      0.31      0.22        13
+            miniature_pinscher       0.09      0.09      0.09        22
+              miniature_poodle       0.03      0.08      0.04        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.12      0.14      0.13        14
+               norfolk_terrier       0.12      0.06      0.08        18
+            norwegian_elkhound       0.09      0.12      0.10        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.09      0.22      0.13        18
+                    otterhound       0.23      0.19      0.21        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.11      0.10      0.10        21
+                           pug       0.05      0.07      0.06        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.03      0.05      0.04        21
+                       samoyed       0.15      0.26      0.19        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.09      0.06      0.07        36
+              sealyham_terrier       0.18      0.40      0.25        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.04      0.05      0.04        22
+                siberian_husky       0.03      0.06      0.04        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.11      0.05      0.07        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.08      0.14      0.10        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.04      0.05      0.04        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.06      0.08      0.07        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.20      0.15      0.17        13
+   west_highland_white_terrier       0.07      0.07      0.07        14
+                       whippet       0.05      0.07      0.06        15
+       wire-haired_fox_terrier       0.08      0.07      0.07        14
+             yorkshire_terrier       0.05      0.06      0.06        16
+
+                      accuracy                           0.05      2045
+                     macro avg       0.05      0.05      0.05      2045
+                  weighted avg       0.05      0.05      0.05      2045
+
+---runtime= 00:01:39 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:42:45------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 15, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.11      0.05      0.07        20
+                  afghan_hound       0.02      0.05      0.03        22
+           african_hunting_dog       0.17      0.08      0.11        26
+                      airedale       0.04      0.04      0.04        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.02      0.05      0.03        19
+            australian_terrier       0.05      0.04      0.04        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.02      0.05      0.03        19
+            bedlington_terrier       0.00      0.00      0.00        29
+          bernese_mountain_dog       0.05      0.04      0.04        26
+       black-and-tan_coonhound       0.06      0.07      0.06        14
+              blenheim_spaniel       0.03      0.04      0.03        26
+                    bloodhound       0.11      0.05      0.07        21
+                      bluetick       0.06      0.06      0.06        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.17      0.08      0.11        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.06      0.05      0.06        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.17      0.08      0.11        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.03      0.04      0.04        23
+                      cardigan       0.12      0.06      0.08        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.00      0.00      0.00        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.10      0.05      0.06        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.14      0.21      0.17        14
+              english_foxhound       0.11      0.23      0.15        13
+                english_setter       0.06      0.06      0.06        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.13      0.14      0.13        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.20      0.11      0.14        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.04      0.06      0.05        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.00      0.00      0.00        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.08      0.05      0.06        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.03      0.07      0.05        15
+               irish_wolfhound       0.04      0.06      0.05        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.14      0.12      0.13        24
+                      keeshond       0.09      0.07      0.08        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.15      0.36      0.21        14
+                      komondor       0.60      0.18      0.27        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.33      0.03      0.06        29
+                      leonberg       0.12      0.28      0.17        18
+                         lhasa       0.04      0.07      0.05        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.17      0.06      0.09        16
+                   maltese_dog       0.02      0.05      0.03        20
+              mexican_hairless       0.18      0.15      0.17        13
+            miniature_pinscher       0.05      0.05      0.05        22
+              miniature_poodle       0.06      0.08      0.06        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.10      0.06      0.07        18
+            norwegian_elkhound       0.05      0.12      0.07        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.05      0.06      0.05        18
+                    otterhound       0.00      0.00      0.00        16
+                      papillon       0.05      0.04      0.04        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.03      0.05      0.03        20
+                    pomeranian       0.00      0.00      0.00        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.05      0.10      0.07        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.05      0.05      0.05        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.05      0.03      0.04        36
+              sealyham_terrier       0.09      0.30      0.14        10
+             shetland_sheepdog       0.12      0.08      0.10        13
+                      shih-tzu       0.07      0.14      0.09        22
+                siberian_husky       0.03      0.06      0.04        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.17      0.14      0.15        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.04      0.11      0.06        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.17      0.08      0.11        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.10      0.07      0.08        14
+                       whippet       0.00      0.00      0.00        15
+       wire-haired_fox_terrier       0.06      0.07      0.06        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.05      0.04      0.04      2045
+                  weighted avg       0.05      0.04      0.04      2045
+
+---runtime= 00:02:22 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:45:38------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 20, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.05      0.05      0.05        20
+                  afghan_hound       0.04      0.05      0.04        22
+           african_hunting_dog       0.06      0.15      0.09        26
+                      airedale       0.04      0.04      0.04        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.07      0.12      0.09        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.04      0.03      0.04        29
+          bernese_mountain_dog       0.06      0.12      0.08        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.00      0.00      0.00        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.09      0.06      0.07        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.00      0.00      0.00        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.00      0.00      0.00        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.06      0.08      0.07        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.09      0.04      0.06        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.12      0.13      0.12        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.11      0.05      0.07        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.00      0.00      0.00        14
+              english_foxhound       0.07      0.15      0.10        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.07      0.06      0.06        17
+                   entlebucher       0.25      0.14      0.18        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.05      0.07      0.06        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.07      0.06      0.06        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.00      0.00      0.00        25
+    greater_swiss_mountain_dog       0.06      0.08      0.07        13
+                   groenendael       0.17      0.05      0.08        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.06      0.07      0.06        15
+               irish_wolfhound       0.05      0.12      0.07        17
+             italian_greyhound       0.05      0.07      0.06        14
+              japanese_spaniel       0.15      0.21      0.18        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.03      0.07      0.04        14
+            kerry_blue_terrier       0.05      0.07      0.06        14
+                      komondor       0.43      0.18      0.25        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.07      0.07      0.07        29
+                      leonberg       0.14      0.11      0.12        18
+                         lhasa       0.05      0.07      0.06        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.04      0.10      0.06        20
+              mexican_hairless       0.25      0.15      0.19        13
+            miniature_pinscher       0.02      0.05      0.03        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.10      0.06      0.07        18
+            norwegian_elkhound       0.11      0.06      0.08        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.11      0.11      0.11        18
+                    otterhound       0.12      0.06      0.08        16
+                      papillon       0.05      0.04      0.04        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.00      0.00      0.00        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.00      0.00      0.00        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.16      0.14      0.15        36
+              sealyham_terrier       0.12      0.40      0.19        10
+             shetland_sheepdog       0.12      0.08      0.10        13
+                      shih-tzu       0.02      0.05      0.03        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.02      0.07      0.04        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.13      0.21      0.16        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.05      0.07      0.06        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.25      0.07      0.11        14
+                       whippet       0.00      0.00      0.00        15
+       wire-haired_fox_terrier       0.00      0.00      0.00        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.04      0.04      0.03      2045
+                  weighted avg       0.04      0.04      0.04      2045
+
+---runtime= 00:03:05 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:49:24------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 30, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.02      0.09      0.04        22
+           african_hunting_dog       0.50      0.04      0.07        26
+                      airedale       0.04      0.04      0.04        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.10      0.04      0.06        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.02      0.05      0.02        19
+            bedlington_terrier       0.17      0.03      0.06        29
+          bernese_mountain_dog       0.00      0.00      0.00        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.00      0.00      0.00        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.07      0.08      0.07        12
+                border_terrier       0.07      0.04      0.05        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.00      0.00      0.00        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.00      0.00      0.00        13
+              brittany_spaniel       0.10      0.13      0.11        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.04      0.04      0.04        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.11      0.05      0.07        21
+                       clumber       0.09      0.07      0.08        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.12      0.10      0.11        20
+                dandie_dinmont       0.08      0.05      0.06        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.08      0.14      0.10        14
+                      doberman       0.11      0.07      0.09        14
+              english_foxhound       0.15      0.15      0.15        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.14      0.10      0.12        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.03      0.07      0.05        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.00      0.00      0.00        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.18      0.10      0.13        20
+                  ibizan_hound       0.06      0.05      0.05        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.00      0.00      0.00        15
+               irish_wolfhound       0.00      0.00      0.00        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.27      0.29      0.28        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.06      0.14      0.08        14
+            kerry_blue_terrier       0.12      0.21      0.16        14
+                      komondor       0.60      0.18      0.27        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.05      0.03      0.04        29
+                      leonberg       0.14      0.17      0.15        18
+                         lhasa       0.29      0.13      0.18        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.04      0.10      0.06        20
+              mexican_hairless       0.08      0.15      0.11        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.04      0.08      0.05        13
+           miniature_schnauzer       0.05      0.07      0.06        14
+                  newfoundland       0.09      0.14      0.11        14
+               norfolk_terrier       0.04      0.06      0.04        18
+            norwegian_elkhound       0.00      0.00      0.00        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.25      0.06      0.09        18
+                    otterhound       0.11      0.19      0.14        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.08      0.10      0.09        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.25      0.09      0.13        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.02      0.10      0.04        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.03      0.11      0.05        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.11      0.11      0.11        36
+              sealyham_terrier       0.09      0.30      0.14        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.06      0.05      0.05        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.04      0.07      0.05        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.12      0.14      0.13        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.12      0.06      0.08        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.20      0.06      0.09        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.14      0.07      0.10        14
+                       whippet       0.00      0.00      0.00        15
+       wire-haired_fox_terrier       0.03      0.14      0.05        14
+             yorkshire_terrier       0.08      0.06      0.07        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.05      0.04      0.04      2045
+                  weighted avg       0.05      0.04      0.04      2045
+
+---runtime= 00:04:32 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 17:54:33------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 40, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.05      0.09      0.07        22
+           african_hunting_dog       0.10      0.04      0.06        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.05      0.08      0.06        12
+                   appenzeller       0.04      0.05      0.04        19
+            australian_terrier       0.12      0.12      0.12        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.12      0.07      0.09        29
+          bernese_mountain_dog       0.02      0.04      0.03        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.04      0.04      0.04        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.03      0.04      0.03        25
+                        borzoi       0.08      0.09      0.09        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.00      0.00      0.00        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.14      0.08      0.10        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.06      0.04      0.05        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.17      0.06      0.09        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.04      0.07      0.05        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.04      0.09      0.05        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.05      0.05      0.05        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.05      0.07      0.06        14
+                      doberman       0.10      0.21      0.14        14
+              english_foxhound       0.09      0.15      0.11        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.14      0.14      0.14        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.07      0.08      0.08        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.09      0.10      0.10        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.04      0.07      0.05        15
+               irish_wolfhound       0.03      0.06      0.04        17
+             italian_greyhound       0.07      0.07      0.07        14
+              japanese_spaniel       0.25      0.29      0.27        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.08      0.07      0.08        14
+                      komondor       0.20      0.06      0.09        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.17      0.06      0.08        18
+              lakeland_terrier       0.06      0.03      0.04        29
+                      leonberg       0.06      0.28      0.09        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.06      0.10      0.07        20
+              mexican_hairless       0.09      0.15      0.11        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.20      0.14      0.17        14
+               norfolk_terrier       0.22      0.11      0.15        18
+            norwegian_elkhound       0.04      0.06      0.05        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.05      0.06      0.05        18
+                    otterhound       0.12      0.12      0.12        16
+                      papillon       0.03      0.04      0.03        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.21      0.14      0.17        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.06      0.10      0.08        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.03      0.05      0.04        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.11      0.11      0.11        36
+              sealyham_terrier       0.15      0.40      0.22        10
+             shetland_sheepdog       0.03      0.08      0.05        13
+                      shih-tzu       0.00      0.00      0.00        22
+                siberian_husky       0.05      0.06      0.05        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.06      0.07      0.06        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.25      0.14      0.18        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.12      0.06      0.08        16
+                   toy_terrier       0.09      0.07      0.08        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.07      0.07      0.07        14
+                       whippet       0.03      0.07      0.04        15
+       wire-haired_fox_terrier       0.00      0.00      0.00        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.04      0.04      0.04      2045
+                  weighted avg       0.04      0.04      0.04      2045
+
+---runtime= 00:05:58 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 18:01:20------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 50, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.03      0.05      0.03        22
+           african_hunting_dog       0.14      0.04      0.06        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.03      0.08      0.05        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.12      0.08      0.09        26
+                       basenji       0.02      0.05      0.03        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.00      0.00      0.00        29
+          bernese_mountain_dog       0.03      0.04      0.03        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.07      0.12      0.09        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.05      0.08      0.06        12
+                border_terrier       0.00      0.00      0.00        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.06      0.14      0.08        14
+          bouvier_des_flandres       0.17      0.05      0.08        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.33      0.08      0.12        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.20      0.06      0.09        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.07      0.05      0.06        21
+                       clumber       0.08      0.07      0.07        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.09      0.14      0.11        14
+                      doberman       0.04      0.07      0.05        14
+              english_foxhound       0.11      0.31      0.16        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.05      0.06      0.05        17
+                   entlebucher       0.20      0.21      0.20        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.04      0.07      0.05        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.03      0.12      0.05        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.03      0.04      0.04        25
+    greater_swiss_mountain_dog       0.06      0.08      0.06        13
+                   groenendael       0.09      0.05      0.06        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.10      0.13      0.11        15
+               irish_wolfhound       0.00      0.00      0.00        17
+             italian_greyhound       0.03      0.07      0.04        14
+              japanese_spaniel       0.12      0.21      0.15        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.08      0.14      0.11        14
+                      komondor       0.43      0.18      0.25        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.05      0.06      0.05        18
+              lakeland_terrier       0.08      0.03      0.05        29
+                      leonberg       0.03      0.11      0.05        18
+                         lhasa       0.08      0.07      0.07        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.03      0.10      0.04        20
+              mexican_hairless       0.18      0.15      0.17        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.06      0.08      0.07        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.06      0.14      0.08        14
+               norfolk_terrier       0.07      0.06      0.06        18
+            norwegian_elkhound       0.08      0.06      0.07        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.13      0.11      0.12        18
+                    otterhound       0.24      0.25      0.24        16
+                      papillon       0.05      0.07      0.06        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.00      0.00      0.00        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.05      0.16      0.08        19
+                    schipperke       0.20      0.04      0.07        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.12      0.14      0.13        36
+              sealyham_terrier       0.11      0.40      0.17        10
+             shetland_sheepdog       0.08      0.08      0.08        13
+                      shih-tzu       0.06      0.09      0.08        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.07      0.14      0.10        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.04      0.05      0.04        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.09      0.08      0.08        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.06      0.07      0.07        14
+                       whippet       0.11      0.07      0.08        15
+       wire-haired_fox_terrier       0.06      0.07      0.06        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.05      2045
+                     macro avg       0.04      0.05      0.04      2045
+                  weighted avg       0.05      0.05      0.04      2045
+
+---runtime= 00:08:18 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 18:11:21------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 60, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.03      0.05      0.04        22
+           african_hunting_dog       0.05      0.04      0.04        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.03      0.05      0.04        19
+            australian_terrier       0.00      0.00      0.00        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.12      0.03      0.05        29
+          bernese_mountain_dog       0.01      0.04      0.02        26
+       black-and-tan_coonhound       0.00      0.00      0.00        14
+              blenheim_spaniel       0.05      0.04      0.04        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.00      0.00      0.00        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.03      0.07      0.05        14
+          bouvier_des_flandres       0.07      0.05      0.06        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.14      0.08      0.10        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.17      0.05      0.07        21
+                       clumber       0.08      0.07      0.07        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.08      0.05      0.06        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.07      0.07      0.07        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.05      0.07      0.06        14
+              english_foxhound       0.09      0.31      0.14        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.09      0.06      0.07        17
+                   entlebucher       0.10      0.07      0.08        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.11      0.09      0.10        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.09      0.11      0.10        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.06      0.08      0.07        25
+    greater_swiss_mountain_dog       0.04      0.08      0.05        13
+                   groenendael       0.16      0.15      0.15        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.00      0.00      0.00        15
+               irish_wolfhound       0.07      0.12      0.09        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.15      0.17      0.16        24
+                      keeshond       0.09      0.07      0.08        14
+                        kelpie       0.06      0.14      0.09        14
+            kerry_blue_terrier       0.06      0.14      0.08        14
+                      komondor       0.67      0.12      0.20        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.20      0.17      0.19        29
+                      leonberg       0.07      0.17      0.09        18
+                         lhasa       0.04      0.07      0.05        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.14      0.06      0.09        16
+                   maltese_dog       0.16      0.15      0.15        20
+              mexican_hairless       0.22      0.15      0.18        13
+            miniature_pinscher       0.05      0.09      0.07        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.05      0.14      0.08        14
+               norfolk_terrier       0.07      0.06      0.06        18
+            norwegian_elkhound       0.00      0.00      0.00        17
+               norwich_terrier       0.13      0.20      0.16        10
+          old_english_sheepdog       0.15      0.33      0.21        18
+                    otterhound       1.00      0.06      0.12        16
+                      papillon       0.07      0.04      0.05        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.00      0.00      0.00        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.01      0.10      0.02        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.07      0.16      0.10        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.14      0.14      0.14        36
+              sealyham_terrier       0.19      0.30      0.23        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.06      0.05      0.05        22
+                siberian_husky       0.03      0.06      0.04        18
+                 silky_terrier       0.03      0.06      0.04        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.06      0.07      0.06        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.15      0.14      0.15        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.06      0.11      0.08        19
+                    toy_poodle       0.08      0.06      0.07        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.05      0.07      0.06        14
+                       whippet       0.06      0.07      0.06        15
+       wire-haired_fox_terrier       0.09      0.07      0.08        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.05      2045
+                     macro avg       0.05      0.05      0.04      2045
+                  weighted avg       0.05      0.05      0.04      2045
+
+---runtime= 00:08:50 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 18:22:17------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 70, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.09      0.05      0.06        20
+                  afghan_hound       0.05      0.09      0.06        22
+           african_hunting_dog       0.20      0.04      0.06        26
+                      airedale       0.08      0.07      0.08        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.07      0.08      0.08        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.12      0.03      0.05        29
+          bernese_mountain_dog       0.02      0.04      0.03        26
+       black-and-tan_coonhound       0.10      0.07      0.08        14
+              blenheim_spaniel       0.04      0.04      0.04        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.25      0.12      0.16        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.05      0.07      0.06        14
+          bouvier_des_flandres       0.10      0.05      0.07        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.17      0.15      0.16        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.17      0.06      0.08        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.05      0.05      0.05        21
+                       clumber       0.00      0.00      0.00        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.06      0.05      0.05        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.06      0.07      0.06        14
+                      doberman       0.00      0.00      0.00        14
+              english_foxhound       0.05      0.15      0.07        13
+                english_setter       0.08      0.06      0.07        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.19      0.24      0.21        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.07      0.05      0.06        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.00      0.00      0.00        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.06      0.08      0.07        25
+    greater_swiss_mountain_dog       0.04      0.08      0.06        13
+                   groenendael       0.12      0.15      0.13        20
+                  ibizan_hound       0.07      0.05      0.05        22
+                  irish_setter       0.03      0.06      0.04        18
+                 irish_terrier       0.04      0.08      0.05        13
+           irish_water_spaniel       0.05      0.07      0.06        15
+               irish_wolfhound       0.05      0.06      0.05        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.21      0.29      0.24        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.03      0.07      0.04        14
+                      komondor       0.25      0.06      0.10        17
+                        kuvasz       0.08      0.17      0.11         6
+            labrador_retriever       0.05      0.06      0.05        18
+              lakeland_terrier       0.14      0.03      0.06        29
+                      leonberg       0.03      0.11      0.04        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.00      0.00      0.00        20
+              mexican_hairless       0.33      0.23      0.27        13
+            miniature_pinscher       0.05      0.05      0.05        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.08      0.11      0.10        18
+            norwegian_elkhound       0.02      0.06      0.03        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.06      0.11      0.07        18
+                    otterhound       0.20      0.12      0.15        16
+                      papillon       0.05      0.04      0.04        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.06      0.10      0.07        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.00      0.00      0.00        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.08      0.11      0.09        36
+              sealyham_terrier       0.16      0.30      0.21        10
+             shetland_sheepdog       0.17      0.08      0.11        13
+                      shih-tzu       0.03      0.05      0.04        22
+                siberian_husky       0.06      0.06      0.06        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.07      0.14      0.10        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.11      0.06      0.08        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.11      0.06      0.08        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.09      0.07      0.08        14
+                       whippet       0.04      0.13      0.06        15
+       wire-haired_fox_terrier       0.00      0.00      0.00        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.04      0.04      0.04      2045
+                  weighted avg       0.05      0.04      0.04      2045
+
+---runtime= 00:10:16 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 18:35:18------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 80, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.14      0.10      0.12        20
+                  afghan_hound       0.03      0.05      0.03        22
+           african_hunting_dog       0.00      0.00      0.00        26
+                      airedale       0.10      0.07      0.09        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.04      0.04      0.04        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.18      0.07      0.10        29
+          bernese_mountain_dog       0.02      0.04      0.02        26
+       black-and-tan_coonhound       0.10      0.07      0.08        14
+              blenheim_spaniel       0.09      0.08      0.08        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.15      0.08      0.11        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.21      0.16      0.18        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.12      0.08      0.10        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.14      0.06      0.08        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.10      0.13      0.11        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.00      0.00      0.00        20
+                dandie_dinmont       0.07      0.05      0.06        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.00      0.00      0.00        14
+              english_foxhound       0.09      0.15      0.11        13
+                english_setter       0.05      0.06      0.06        17
+              english_springer       0.33      0.06      0.10        17
+                   entlebucher       0.15      0.21      0.18        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.25      0.06      0.10        16
+               giant_schnauzer       0.33      0.05      0.09        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.04      0.06      0.05        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.07      0.08      0.08        25
+    greater_swiss_mountain_dog       0.00      0.00      0.00        13
+                   groenendael       0.07      0.10      0.08        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.08      0.11      0.10        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.00      0.00      0.00        15
+               irish_wolfhound       0.03      0.06      0.04        17
+             italian_greyhound       0.13      0.14      0.14        14
+              japanese_spaniel       0.15      0.29      0.20        24
+                      keeshond       0.09      0.07      0.08        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.05      0.07      0.06        14
+                      komondor       0.29      0.12      0.17        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.17      0.03      0.06        29
+                      leonberg       0.15      0.22      0.18        18
+                         lhasa       0.18      0.13      0.15        15
+                      malamute       0.08      0.06      0.07        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.05      0.05      0.05        20
+              mexican_hairless       0.17      0.31      0.22        13
+            miniature_pinscher       0.04      0.09      0.05        22
+              miniature_poodle       0.07      0.08      0.07        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.07      0.06      0.06        18
+            norwegian_elkhound       0.03      0.06      0.04        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.10      0.11      0.10        18
+                    otterhound       0.29      0.12      0.17        16
+                      papillon       0.19      0.11      0.14        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.15      0.19      0.17        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.04      0.09      0.06        11
+                 saint_bernard       0.06      0.10      0.07        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.13      0.21      0.16        19
+                    schipperke       0.00      0.00      0.00        24
+                scotch_terrier       0.00      0.00      0.00         9
+            scottish_deerhound       0.10      0.08      0.09        36
+              sealyham_terrier       0.12      0.40      0.19        10
+             shetland_sheepdog       0.06      0.08      0.07        13
+                      shih-tzu       0.03      0.05      0.04        22
+                siberian_husky       0.12      0.06      0.08        18
+                 silky_terrier       0.05      0.06      0.05        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.12      0.07      0.09        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.20      0.14      0.17        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.02      0.05      0.02        19
+                    toy_poodle       0.00      0.00      0.00        16
+                   toy_terrier       0.04      0.07      0.05        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.06      0.07      0.06        14
+                       whippet       0.12      0.07      0.09        15
+       wire-haired_fox_terrier       0.04      0.07      0.05        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.05      2045
+                     macro avg       0.06      0.05      0.05      2045
+                  weighted avg       0.06      0.05      0.05      2045
+
+---runtime= 00:11:41 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 18:48:26------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 90, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.00      0.00      0.00        20
+                  afghan_hound       0.04      0.05      0.04        22
+           african_hunting_dog       0.00      0.00      0.00        26
+                      airedale       0.06      0.07      0.07        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.07      0.05      0.06        19
+            australian_terrier       0.05      0.04      0.04        26
+                       basenji       0.02      0.10      0.03        20
+                        basset       0.00      0.00      0.00        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.25      0.07      0.11        29
+          bernese_mountain_dog       0.02      0.04      0.03        26
+       black-and-tan_coonhound       0.08      0.07      0.07        14
+              blenheim_spaniel       0.03      0.04      0.04        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.05      0.08      0.06        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.00      0.00      0.00        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.08      0.08      0.08        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.00      0.00      0.00        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.18      0.10      0.13        20
+                dandie_dinmont       0.09      0.05      0.06        21
+                         dhole       0.12      0.07      0.09        14
+                         dingo       0.11      0.14      0.12        14
+                      doberman       0.07      0.07      0.07        14
+              english_foxhound       0.08      0.23      0.12        13
+                english_setter       0.00      0.00      0.00        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.14      0.10      0.12        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.00      0.00      0.00        13
+                 gordon_setter       0.03      0.06      0.04        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.06      0.08      0.07        25
+    greater_swiss_mountain_dog       0.02      0.08      0.03        13
+                   groenendael       0.11      0.10      0.11        20
+                  ibizan_hound       0.00      0.00      0.00        22
+                  irish_setter       0.15      0.11      0.13        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.00      0.00      0.00        15
+               irish_wolfhound       0.05      0.06      0.05        17
+             italian_greyhound       0.00      0.00      0.00        14
+              japanese_spaniel       0.10      0.21      0.14        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.11      0.29      0.16        14
+                      komondor       0.50      0.06      0.11        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.08      0.03      0.05        29
+                      leonberg       0.05      0.06      0.05        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.00      0.00      0.00        17
+                      malinois       0.00      0.00      0.00        16
+                   maltese_dog       0.00      0.00      0.00        20
+              mexican_hairless       0.11      0.15      0.13        13
+            miniature_pinscher       0.05      0.05      0.05        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.00      0.00      0.00        14
+               norfolk_terrier       0.25      0.06      0.09        18
+            norwegian_elkhound       0.00      0.00      0.00        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.21      0.17      0.19        18
+                    otterhound       0.20      0.12      0.15        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.08      0.10      0.09        20
+                    pomeranian       0.10      0.10      0.10        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.00      0.00      0.00        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.11      0.26      0.15        19
+                    schipperke       0.12      0.04      0.06        24
+                scotch_terrier       0.04      0.11      0.06         9
+            scottish_deerhound       0.06      0.06      0.06        36
+              sealyham_terrier       0.13      0.50      0.21        10
+             shetland_sheepdog       0.06      0.08      0.07        13
+                      shih-tzu       0.03      0.05      0.04        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.03      0.06      0.04        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.09      0.07      0.08        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.22      0.14      0.17        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.00      0.00      0.00        19
+                    toy_poodle       0.10      0.06      0.08        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.10      0.07      0.08        14
+                       whippet       0.00      0.00      0.00        15
+       wire-haired_fox_terrier       0.10      0.07      0.08        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.04      0.04      0.04      2045
+                  weighted avg       0.05      0.04      0.04      2045
+
+---runtime= 00:13:10 ---
+
+<------------------------End------------------------>
+
+
+<--------------2021/11/30 19:39:23------------------>
+This is result of using HW4a model
+length(number) of label in train set: 120
+
+I haven't use original test data, only split train set data to train, validation and test.
+
+length(number) of train set data: 8177
+length(number) of test set data: 2045
+Epoch= 100, Learning rate= 0.001, batch_size: 32
+                                precision    recall  f1-score   support
+
+                 affenpinscher       0.07      0.05      0.06        20
+                  afghan_hound       0.05      0.09      0.06        22
+           african_hunting_dog       0.07      0.04      0.05        26
+                      airedale       0.00      0.00      0.00        27
+american_staffordshire_terrier       0.00      0.00      0.00        12
+                   appenzeller       0.00      0.00      0.00        19
+            australian_terrier       0.05      0.04      0.04        26
+                       basenji       0.00      0.00      0.00        20
+                        basset       0.07      0.07      0.07        15
+                        beagle       0.00      0.00      0.00        19
+            bedlington_terrier       0.12      0.03      0.05        29
+          bernese_mountain_dog       0.15      0.08      0.10        26
+       black-and-tan_coonhound       0.12      0.14      0.13        14
+              blenheim_spaniel       0.06      0.12      0.08        26
+                    bloodhound       0.00      0.00      0.00        21
+                      bluetick       0.00      0.00      0.00        17
+                 border_collie       0.00      0.00      0.00        12
+                border_terrier       0.07      0.04      0.05        25
+                        borzoi       0.00      0.00      0.00        11
+                   boston_bull       0.00      0.00      0.00        14
+          bouvier_des_flandres       0.27      0.16      0.20        19
+                         boxer       0.00      0.00      0.00        16
+             brabancon_griffon       0.00      0.00      0.00        14
+                        briard       0.00      0.00      0.00        13
+              brittany_spaniel       0.00      0.00      0.00        15
+                  bull_mastiff       0.00      0.00      0.00        14
+                         cairn       0.00      0.00      0.00        23
+                      cardigan       0.00      0.00      0.00        18
+      chesapeake_bay_retriever       0.00      0.00      0.00        18
+                     chihuahua       0.00      0.00      0.00        16
+                          chow       0.00      0.00      0.00        21
+                       clumber       0.00      0.00      0.00        15
+                cocker_spaniel       0.00      0.00      0.00        22
+                        collie       0.00      0.00      0.00        11
+        curly-coated_retriever       0.10      0.05      0.07        20
+                dandie_dinmont       0.00      0.00      0.00        21
+                         dhole       0.00      0.00      0.00        14
+                         dingo       0.00      0.00      0.00        14
+                      doberman       0.05      0.07      0.06        14
+              english_foxhound       0.10      0.31      0.15        13
+                english_setter       0.10      0.06      0.07        17
+              english_springer       0.00      0.00      0.00        17
+                   entlebucher       0.19      0.21      0.20        29
+                    eskimo_dog       0.00      0.00      0.00        15
+         flat-coated_retriever       0.00      0.00      0.00        14
+                french_bulldog       0.00      0.00      0.00        11
+               german_shepherd       0.00      0.00      0.00        19
+   german_short-haired_pointer       0.00      0.00      0.00        16
+               giant_schnauzer       0.00      0.00      0.00        19
+              golden_retriever       0.17      0.08      0.11        13
+                 gordon_setter       0.15      0.12      0.14        16
+                    great_dane       0.00      0.00      0.00        16
+                great_pyrenees       0.05      0.08      0.06        25
+    greater_swiss_mountain_dog       0.07      0.08      0.07        13
+                   groenendael       0.12      0.10      0.11        20
+                  ibizan_hound       0.08      0.05      0.06        22
+                  irish_setter       0.00      0.00      0.00        18
+                 irish_terrier       0.00      0.00      0.00        13
+           irish_water_spaniel       0.00      0.00      0.00        15
+               irish_wolfhound       0.00      0.00      0.00        17
+             italian_greyhound       0.03      0.07      0.04        14
+              japanese_spaniel       0.08      0.17      0.11        24
+                      keeshond       0.00      0.00      0.00        14
+                        kelpie       0.00      0.00      0.00        14
+            kerry_blue_terrier       0.05      0.21      0.08        14
+                      komondor       0.50      0.12      0.19        17
+                        kuvasz       0.00      0.00      0.00         6
+            labrador_retriever       0.00      0.00      0.00        18
+              lakeland_terrier       0.05      0.03      0.04        29
+                      leonberg       0.04      0.11      0.06        18
+                         lhasa       0.00      0.00      0.00        15
+                      malamute       0.07      0.06      0.06        17
+                      malinois       0.12      0.06      0.08        16
+                   maltese_dog       0.02      0.05      0.03        20
+              mexican_hairless       0.17      0.23      0.19        13
+            miniature_pinscher       0.00      0.00      0.00        22
+              miniature_poodle       0.00      0.00      0.00        13
+           miniature_schnauzer       0.00      0.00      0.00        14
+                  newfoundland       0.07      0.07      0.07        14
+               norfolk_terrier       0.05      0.06      0.05        18
+            norwegian_elkhound       0.05      0.06      0.05        17
+               norwich_terrier       0.00      0.00      0.00        10
+          old_english_sheepdog       0.06      0.06      0.06        18
+                    otterhound       0.33      0.12      0.18        16
+                      papillon       0.00      0.00      0.00        28
+                      pekinese       0.00      0.00      0.00        12
+                      pembroke       0.00      0.00      0.00        20
+                    pomeranian       0.02      0.05      0.03        21
+                           pug       0.00      0.00      0.00        14
+                       redbone       0.00      0.00      0.00        11
+           rhodesian_ridgeback       0.00      0.00      0.00        10
+                    rottweiler       0.00      0.00      0.00        11
+                 saint_bernard       0.06      0.10      0.08        10
+                        saluki       0.00      0.00      0.00        21
+                       samoyed       0.05      0.11      0.07        19
+                    schipperke       0.08      0.04      0.06        24
+                scotch_terrier       0.05      0.11      0.07         9
+            scottish_deerhound       0.08      0.14      0.10        36
+              sealyham_terrier       0.16      0.30      0.21        10
+             shetland_sheepdog       0.00      0.00      0.00        13
+                      shih-tzu       0.05      0.09      0.07        22
+                siberian_husky       0.00      0.00      0.00        18
+                 silky_terrier       0.00      0.00      0.00        17
+   soft-coated_wheaten_terrier       0.00      0.00      0.00        12
+     staffordshire_bullterrier       0.00      0.00      0.00        15
+               standard_poodle       0.00      0.00      0.00        20
+            standard_schnauzer       0.00      0.00      0.00        10
+                sussex_spaniel       0.11      0.14      0.12        14
+               tibetan_mastiff       0.00      0.00      0.00         9
+               tibetan_terrier       0.04      0.11      0.06        19
+                    toy_poodle       0.04      0.06      0.05        16
+                   toy_terrier       0.00      0.00      0.00        14
+                        vizsla       0.00      0.00      0.00        20
+                  walker_hound       0.00      0.00      0.00        13
+                    weimaraner       0.00      0.00      0.00        17
+        welsh_springer_spaniel       0.00      0.00      0.00        13
+   west_highland_white_terrier       0.10      0.07      0.08        14
+                       whippet       0.04      0.07      0.05        15
+       wire-haired_fox_terrier       0.05      0.07      0.06        14
+             yorkshire_terrier       0.00      0.00      0.00        16
+
+                      accuracy                           0.04      2045
+                     macro avg       0.04      0.04      0.04      2045
+                  weighted avg       0.04      0.04      0.04      2045
+
+---runtime= 00:14:35 ---
+
+<------------------------End------------------------>
+
+
