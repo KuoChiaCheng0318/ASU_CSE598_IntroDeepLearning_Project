@@ -1,6 +1,6 @@
 # ASU_CSE598_IntroDeepLearning_Project
 
-This repository contains my code for ASU_CSE598_IntroDeepLearning_Project
+This repository: https://github.com/KuoChiaCheng0318/ASU_CSE598_IntroDeepLearning_Project  contains my code for ASU_CSE598_IntroDeepLearning_Project
 <br /><br />
 dog-breed-identification_BreedHistorgram.py: Plots the histogram of the frequency of every dog breeds.<br /><br />
 dog-breed-identification_confusionMatrix.py: Plots the Confusion_matrix of the testing result of the main success program.<br /><br />
