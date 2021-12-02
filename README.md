@@ -12,7 +12,7 @@ dog-breed-identification_ShowErrorImage.py: The program which uses the MainSucce
 dog-breed-identification_ShowInputImage.py: The program which uses matplotlib to show the input images.<br /><br />
 dog-breed-identification_SimpleCNNoverfit.py: The program which uses a simple CNN model referenced from https://www.kaggle.com/androbomb/using-cnn-to-classify-images-w-pytorch website. The testing result was not good, but have good performance on training (Overfit).<br /><br />
 dog-breed-identification_useHW4b.py: The program which uses HW4b model to train and test. Because it only input 28X28 grayscale images, the result is not good.<br /><br />
-LogDifferentEpochs.txt: The Log file of the CNN model which overfits on testing. I tried different epochs, to see when should I stop training.<br /><br />
+LogDifferentEpochs.txt: The Log file of the CNN model which overfits on testing. I tried different epochs, to see when I should stop training.<br /><br />
 
 **For the path of dataset, images should all be in a folder called "train", labels should be in a csv file named "labels.csv". Both "train folder" and "labels.csv" should be in the same path as the running python program.**
 <img src="Path.PNG" width="500px">
