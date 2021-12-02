@@ -15,3 +15,4 @@ dog-breed-identification_useHW4b.py: The program which uses HW4b model to train 
 LogDifferentEpochs.txt: The Log file of the CNN model which overfits on testing. I tried different epochs, to see when should I stop training.<br /><br />
 
 **For the path of dataset, images should all be in a folder called "train", labels should be in a csv file named "labels.csv". Both "train folder" and "labels.csv" should be in the same path as the running python program.**
+<img src="Path.PNG" width="500px">
